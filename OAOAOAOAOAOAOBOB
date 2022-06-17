@@ -1,0 +1,92 @@
+[33mcommit d5b22cdf206446576fce67d6fea8414bb6317789[m[33m ([m[1;36mHEAD[m[33m, [m[1;31morigin/testbranch[m[33m)[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Thu Jun 9 15:01:23 2022 -0400
+
+    DO180
+
+ TEST | 2 [1;32m+[m[1;31m-[m
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+[33mcommit 8c060af0afdbb1496d0fe2d5ff7867896d64634e[m
+Author: Student User <student@workstation.lab.example.com>
+Date:   Thu Jun 9 14:41:33 2022 -0400
+
+    DO180
+
+ TEST | 1 [1;32m+[m
+ 1 file changed, 1 insertion(+)
+
+[33mcommit f7cd8963ef353d9173c3a21dcccf402f3616840b[m[33m ([m[1;31morigin/s2i[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Jordi Sola <someth2say@gmail.com>
+Date:   Fri Oct 4 13:04:03 2019 +0200
+
+    Initial commit, including all apps previously in course
+
+ example/README.md                                                      |   1 [1;32m+[m
+ nodejs-app/package.json                                                |  12 [1;32m++[m
+ nodejs-app/server.js                                                   |  13 [1;32m++[m
+ nodejs-helloworld/app.js                                               |  11 [1;32m++[m
+ nodejs-helloworld/package.json                                         |  11 [1;32m++[m
+ php-helloworld/index.php                                               |   3 [1;32m+[m
+ temps/index.php                                                        |  53 [1;32m++++++++[m
+ todoapp/html5/README.md                                                |  20 [1;32m+++[m
+ todoapp/html5/compile.sh                                               |   8 [1;32m++[m
+ todoapp/html5/run.sh                                                   |   4 [1;32m+[m
+ todoapp/html5/src/css/style.css                                        |  90 [1;32m+++++++++++++[m
+ todoapp/html5/src/hello.html                                           |  12 [1;32m++[m
+ todoapp/html5/src/index.html                                           | 107 [1;32m+++++++++++++++[m
+ todoapp/html5/src/lib/dependencies/angular-resource.min.js             |  13 [1;32m++[m
+ todoapp/html5/src/lib/dependencies/angular.min.js                      | 214 [1;32m++++++++++++++++++++++++++++++[m
+ todoapp/html5/src/lib/dependencies/css/bootstrap.min.css               |   5 [1;32m+[m
+ todoapp/html5/src/lib/dependencies/css/ng-grid.min.css                 |   1 [1;32m+[m
+ .../html5/src/lib/dependencies/fonts/glyphicons-halflings-regular.eot  | Bin [1;31m0[m -> [1;32m20335[m bytes
+ .../html5/src/lib/dependencies/fonts/glyphicons-halflings-regular.svg  | 229 [1;32m+++++++++++++++++++++++++++++++++[m
+ .../html5/src/lib/dependencies/fonts/glyphicons-halflings-regular.ttf  | Bin [1;31m0[m -> [1;32m41280[m bytes
+ .../html5/src/lib/dependencies/fonts/glyphicons-halflings-regular.woff | Bin [1;31m0[m -> [1;32m23320[m bytes
+ todoapp/html5/src/lib/dependencies/jquery.min.js                       |   5 [1;32m+[m
+ todoapp/html5/src/lib/dependencies/ng-grid-2.0.11.min.js               |   3 [1;32m+[m
+ todoapp/html5/src/lib/dependencies/ui-bootstrap-tpls.min.js            |  10 [1;32m++[m
+ todoapp/html5/src/script/item.js                                       | 175 [1;32m+++++++++++++++++++++++++[m
+ todoapp/nodejs/.gitignore                                              |   2 [1;32m+[m
+ todoapp/nodejs/README.md                                               |  15 [1;32m+++[m
+ todoapp/nodejs/app.js                                                  |  37 [1;32m++++++[m
+ todoapp/nodejs/compile.sh                                              |   6 [1;32m+[m
+ todoapp/nodejs/controllers/items.js                                    | 118 [1;32m+++++++++++++++++[m
+ todoapp/nodejs/models/db.js                                            |  11 [1;32m++[m
+ todoapp/nodejs/models/items.js                                         | 126 [1;32m++++++++++++++++++[m
+ todoapp/nodejs/package.json                                            |  10 [1;32m++[m
+ todoapp/nodejs/run.sh                                                  |   6 [1;32m+[m
+ todoapp/nodejs/todo/css/style.css                                      |  80 [1;32m++++++++++++[m
+ todoapp/nodejs/todo/hello.html                                         |  12 [1;32m++[m
+ todoapp/nodejs/todo/index.html                                         | 105 [1;32m+++++++++++++++[m
+ todoapp/nodejs/todo/lib/dependencies/angular-resource.min.js           |  13 [1;32m++[m
+ todoapp/nodejs/todo/lib/dependencies/angular.min.js                    | 214 [1;32m++++++++++++++++++++++++++++++[m
+ todoapp/nodejs/todo/lib/dependencies/css/bootstrap.min.css             |   5 [1;32m+[m
+ todoapp/nodejs/todo/lib/dependencies/css/ng-grid.min.css               |   1 [1;32m+[m
+ .../todo/lib/dependencies/fonts/glyphicons-halflings-regular.eot       | Bin [1;31m0[m -> [1;32m20335[m bytes
+ .../todo/lib/dependencies/fonts/glyphicons-halflings-regular.svg       | 229 [1;32m+++++++++++++++++++++++++++++++++[m
+ .../todo/lib/dependencies/fonts/glyphicons-halflings-regular.ttf       | Bin [1;31m0[m -> [1;32m41280[m bytes
+ .../todo/lib/dependencies/fonts/glyphicons-halflings-regular.woff      | Bin [1;31m0[m -> [1;32m23320[m bytes
+ todoapp/nodejs/todo/lib/dependencies/jquery.min.js                     |   5 [1;32m+[m
+ todoapp/nodejs/todo/lib/dependencies/ng-grid-2.0.11.min.js             |   3 [1;32m+[m
+ todoapp/nodejs/todo/lib/dependencies/ui-bootstrap-tpls.min.js          |  10 [1;32m++[m
+ todoapp/nodejs/todo/script/item.js                                     | 161 [1;32m+++++++++++++++++++++++[m
+ todoapp/nodejs_api/README.md                                           |  18 [1;32m+++[m
+ todoapp/nodejs_api/app.js                                              |  35 [1;32m+++++[m
+ todoapp/nodejs_api/compile.sh                                          |   6 [1;32m+[m
+ todoapp/nodejs_api/controllers/items.js                                | 118 [1;32m+++++++++++++++++[m
+ todoapp/nodejs_api/controllers/serverinfo.js                           |  29 [1;32m+++++[m
+ todoapp/nodejs_api/models/db.js                                        |  12 [1;32m++[m
+ todoapp/nodejs_api/models/items.js                                     | 126 [1;32m++++++++++++++++++[m
+ todoapp/nodejs_api/package.json                                        |  10 [1;32m++[m
+ todoapp/nodejs_api/run.sh                                              |   6 [1;32m+[m
+ 58 files changed, 2529 insertions(+)
+
+[33mcommit a87e659954c757300561cea855c3b42ca2b10474[m
+Author: zgutterm <zgutterm@redhat.com>
+Date:   Tue Oct 1 08:50:51 2019 -0400
+
+    Initial commit
+
+ README.md | 2 [1;32m++[m
+ 1 file changed, 2 insertions(+)
